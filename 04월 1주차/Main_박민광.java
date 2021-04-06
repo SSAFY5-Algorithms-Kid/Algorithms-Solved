@@ -5,7 +5,7 @@ public class Main{
 		Scanner sc = new Scanner(System.in);
 		
 		int n = sc.nextInt();
-		boolean[] visit = new boolean[1000];
+		boolean[] visit = new boolean[1001];
 		
 		for(int one = 0; one <= n; one++) {
 			for(int five = 0; five <= n - one; five++) {
