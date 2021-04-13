@@ -1,58 +1,45 @@
+
+
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.io.StringReader;
 import java.util.StringTokenizer;
 
-public class Main {
-
-	static long from, to;
-
-	public static void main(String[] args) throws Exception {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-		StringTokenizer st = new StringTokenizer(br.readLine());
-
-		from = Integer.parseInt(st.nextToken());
-		to = Integer.parseInt(st.nextToken());
-
-		bfs();
-	}
-
-	private static void bfs() {
-		Queue<Point> queue = new LinkedList<Point>();
-		queue.offer(new Point(from, 0));
-
-		while (!queue.isEmpty()) {
-			Point now = queue.poll();
-
-			if (now.num == to) {
-				System.out.println(now.len + 1);
-				return;
+public class Main_심재원 {
+	static BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
+	static StringBuilder output = new StringBuilder();
+	static StringTokenizer tokens;
+	static long A,B;
+	public static void main(String[] args) throws IOException {
+		input = new BufferedReader(new StringReader(src));
+		tokens =new StringTokenizer(input.readLine());
+		A = Long.parseLong(tokens.nextToken());
+		B = Long.parseLong(tokens.nextToken());
+		
+		int cnt = 1;
+		while(B != A) {
+			if(B < A) {
+				cnt = -1;
+				break;
 			}
-
-			if (now.num > to)
-				continue;
-
-			long temp1 = now.num * 2;
-			long temp2 = (now.num) * 10 + 1;
-
-			if (temp1 <= to)
-				queue.offer(new Point(temp1, now.len + 1));
-			if (temp2 <= to)
-				queue.offer(new Point(temp2, now.len + 1));
+			
+			if(B%10 == 1) {
+				B/=10;
+				cnt++;
+			}
+			else if(B%2 ==0) {
+				B/=2;
+				cnt++;
+			}
+			else {
+				cnt = -1;
+				break;
+			}
 		}
-		System.out.println(-1);
+		System.out.println(cnt);
 	}
-
-	static class Point {
-		public long num;
-		public int len;
-
-		public Point(long num, int len) {
-			this.num = num;
-			this.len = len;
-		}
-	}
+	
+	static String src = "100 40021";
 
 }
