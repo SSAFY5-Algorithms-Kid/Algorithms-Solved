@@ -16,25 +16,34 @@ public class BJ_S3_16922_로마숫자만들기 {
 	static boolean[] visited;
 
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		N = Integer.parseInt(input.readLine()); // 4
+		N = Integer.parseInt(input.readLine());
 		visited = new boolean[1001];
 
 		Combination(N, 0, 0);
 		System.out.println(cnt);
 	}
-	/*
-	 * 첫번 private static void Combination(int toChoose,int sum) { if(toChoose == 0)
-	 * { if(!visited[sum]) { cnt++; visited[sum] = true; } return; } for(int i = 0;
-	 * i < roma.length; i++) { int res = sum+roma[i]; Combination(toChoose-1, res);
-	 * } }
-	 */
-
+/*첫번째 코드
+ 
+	private static void Combination(int toChoose, int sum) {
+		if (toChoose == 0) {
+			if (!visited[sum]) {
+				cnt++;
+				visited[sum] = true;
+			}
+			return;
+		}
+		for (int i = 0; i < roma.length; i++) {
+			int res = sum + roma[i];
+			Combination(toChoose - 1, res);
+		}
+	}
+*/
 	private static void Combination(int toChoose, int sum, int idx) {
 
 		if (toChoose == 0) {
 			if (!visited[sum]) {
 				visited[sum] = true;
-				cnt++;				
+				cnt++;
 			}
 			return;
 		}
