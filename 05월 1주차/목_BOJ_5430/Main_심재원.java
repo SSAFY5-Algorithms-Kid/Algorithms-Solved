@@ -5,9 +5,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.time.format.ResolverStyle;
+import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -23,145 +25,115 @@ public class BJ_G5_5430_AC {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		input= new BufferedReader(new StringReader(src));
 		T= Integer.parseInt(input.readLine());
-		all:for (int t = 0; t < T; t++) {
-			output = new StringBuilder();
+		output = new StringBuilder();
+		for (int t = 0; t < T; t++) {
 			P = input.readLine().toCharArray();
 			N= Integer.parseInt(input.readLine());
-//			System.out.println(Arrays.toString(P));
-//			System.out.println(N);
-						
-			if(N==0) {
-				for (int p = 0; p < P.length; p++) {
-					if(P[p] == 'D') {
-						System.out.println("error");
-						continue all;
-					}
-				}
-			}
+			int evenR = 1;
+			//System.out.println(Arrays.toString(P));
+			//System.out.println(N);
 			
 			String in = input.readLine();
-//			System.out.println(in);
+			//System.out.println(in);
+			
+			
 			
 			String out = in.substring(1, in.length()-1);
-//			System.out.println("잘라내기: " +out);
-			
-			
+			//System.out.println("잘라내기: " +out);
 			
 			String[] yes = out.split(",");
-//			System.out.println(Arrays.toString(yes));
+			//System.out.println(Arrays.toString(yes));
 			
-			//첫번째 [ 뗴기
-
-			//마지막번째 ] 떼기 
-			List<String> list = new ArrayList<>();
+			if(N==0 && noNum_D()) {
+				continue;
+			}
 			
-			//List<String> list = Arrays.asList(yes);
+			if(N==0 && noNum_R()) {
+				continue;
+			}
+			
+			Deque<Integer> dq = new ArrayDeque<>();
 			
 			for (int i = 0; i < yes.length; i++) {
-				list.add(yes[i]); 
+				dq.add(Integer.parseInt(yes[i]));
 			}
 			
-//			System.out.println("이거임= "+list);
+			//System.out.println("deque= "+dq);
+			
 			
 			for (int p = 0; p < P.length; p++) {
 				if(P[p] == 'R') {
 					//거꾸로
-					Collections.reverse(list);
-//					System.out.println("거꾸로: "+list);
+					evenR *= -1;
 				}
-					
+
 				else { //'D'일떄
 					//지워
-					if(list.size() > 0) {
-//						System.out.println("너냐?");
-						list.remove(0);
-//						System.out.println("너냐?");						
+					if(dq.size()!=0) { //dq가 있을때
+						//1. R이 짝수개일때 evenR = 1
+						if(evenR == 1) {
+							//앞에서부터 빼기
+							dq.pollFirst();
+						}
+						//2. R이 홀수개일때 evenR = -1
+						else {
+							//뒤에서부터 빼기
+							dq.pollLast();
+						}
 					}
-					else {
-						System.out.println("error");
-//						System.out.println("----------------------");
-//						System.out.println();
-						continue all;
+					else {//dq가 비어있을때 D가오면
+						//System.out.println("답인가?"+ "error");
+						output.append("error\n");
+						break;
 					}
 				}
-			} 
-//			System.out.println(list);
-			output.append("[");
-			
-			for (int i = 0; i < list.size()-1; i++) {
-				output.append(list.get(i) + ",");
 			}
-			
-			output.append(list.get(list.size()-1) + "]");
-			
-			System.out.println(output);
-			
-			
-//			System.out.println("----------------------");
-//			System.out.println();
-			
-		
-//			
-//			for (int i = 0; i < yes.length; i++) {
-//				list.add(Integer.parseInt(yes[i])); 
-//			}
-//			System.out.println(list);
-			
-			
-			
-			/*
-			String in = input.readLine();
-			char[] a = in.toCharArray();
-			List<Integer> list = new ArrayList<>();
-			for (int i = 0; i < a.length; i++) {
-				int tmp = a[i] - '0';
-				if(tmp >=0 && tmp<=100) list.add(tmp);
-			}//숫자만 list에 넣기
-			list.remove(0);
-			list.remove(list.size()-1);
-			//[ 랑 ] 도 숫자로 들어와버려서 앞과 뒤 삭제
-			System.out.println(list);
-			System.out.println();
-			
-			
-			//시작
-			for (int p = 0; p < P.length; p++) {
-				if(P[p] == 'R') {
-					//거꾸로
-					Collections.reverse(list);
+			if(evenR == -1) { // 다 했는데 R이 홀수개일때
+				//뒤집어
+				Deque<Integer> tmp = new ArrayDeque<>();
+				while(!dq.isEmpty()) {
+					tmp.addFirst(dq.pollFirst());
 				}
-					
-				else { //'D'일떄
-					//지워
-					if(list.size() > 0)
-						list.remove(0);
-					else {
-						System.out.println("error");
-						System.out.println("----------------------");
-						System.out.println();
-						continue all;
-					}
+				//System.out.println("tmp= "+tmp );
+				dq = tmp;
+			}
+			if(!dq.isEmpty()) {
+				//System.out.println("답인가?" + dq);
+				output.append("[");
+				int size = dq.size();
+				for (int i = 0; i < size-1; i++) {
+					output.append(dq.pollFirst()+",");
 				}
-			} 
-			System.out.println("답 = " +list);
-			System.out.println("----------------------");
-			System.out.println();
-		*/
-			
-//			System.out.println("----------------------");
+				output.append(dq.pollFirst()+"]\n");				
+			}
+			//System.out.println();
 		}
+		System.out.print(output);
 	}
-	static String src = "4\r\n" + 
-			"RDD\r\n" + 
-			"4\r\n" + 
-			"[1,2,3,4]\r\n" + 
-			"DD\r\n" + 
-			"1\r\n" + 
-			"[42]\r\n" + 
-			"RRD\r\n" + 
-			"6\r\n" + 
-			"[1,1,2,3,5,8]\r\n" + 
+	private static boolean noNum_R() {
+		for (int p = 0; p < P.length; p++) {
+			if(P[p] == 'R') {
+				output.append("[]\n");
+				return true;
+			}
+		}
+		return false;
+	}
+	private static boolean noNum_D() {
+		for (int p = 0; p < P.length; p++) {
+			if(P[p] == 'D') {
+				//System.out.println("답인가?"+"error");
+				output.append("error\n");
+				return true;
+			}
+		}
+		return false;
+	}
+	static String src = "2\r\n" + 
 			"D\r\n" + 
+			"0\r\n" + 
+			"[]\r\n" + 
+			"R\r\n" + 
 			"0\r\n" + 
 			"[]";
 }
