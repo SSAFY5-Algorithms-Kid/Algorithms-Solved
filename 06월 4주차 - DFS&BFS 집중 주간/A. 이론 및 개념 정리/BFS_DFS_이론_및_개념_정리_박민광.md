@@ -54,7 +54,8 @@ python으로 다시 한번 풀어보았다.
 
 DFS는 재귀를 이용해서, BFS는 큐를 이용해서 풀었는데, 문제는 응용보다는 기본개념에 충실한 느낌이다.
 
-[##_Image|kage@XpoR6/btq7GAIwsm6/cqBW7xl0QVQP8pPVkVFpo1/img.png|alignCenter|data-origin-width="841" data-origin-height="494" data-ke-mobilestyle="widthOrigin"|BFS&amp;DFS||_##]
+[BFSDFS](https://user-images.githubusercontent.com/50613287/122958319-b3938000-d3bd-11eb-84c9-f5a7bcc59405.png)
+
 
 > 위 그림과 같이, BFS는 너비 우선 탐색으로 시작 노드 A부터 한 단계씩 내려오면서 같은 레벨을 먼저 순회한다.  
 > ( A - B - C - D - G - H - I - E - F - J)  
