@@ -23,11 +23,12 @@ DFS(깊이 우선 탐색) && BFS(너비 우선 탐색)
 - DFS와 BFS의 탐색 순서는 아래와 같다.
 > DFS 탐색 순서
 
-![dfs](/uploads/7805a89a493dac97b6b0b9c6cd827694/dfs.png)
+![dfs](https://user-images.githubusercontent.com/56018285/123651331-563c7a80-d866-11eb-9132-80d7950cd7ae.png)
+
 
 > BFS 탐색 순서
 
-![bfs](/uploads/18391686f09f61c9905209259d5b9b97/bfs.png)
+![bfs](https://user-images.githubusercontent.com/56018285/123651379-62283c80-d866-11eb-8a44-e5cd9fb7ccc6.png)
 
 - DFS와 BFS의 자료구조 코드 작성 요령
 
