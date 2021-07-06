@@ -3,7 +3,11 @@ package BOJ;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-
+/**
+ * @author JAEWOO SHIM
+ * @date  
+ *
+ */
 public class Main_BOJ_S2_2644_촌수계산 {
 
 	public static void main(String[] args) {

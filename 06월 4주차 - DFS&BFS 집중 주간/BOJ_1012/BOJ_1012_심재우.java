@@ -2,7 +2,11 @@ package BOJ;
 
 import java.io.*;
 import java.util.*;
-
+/**
+ * @author JAEWOO SHIM
+ * @date  
+ *
+ */
 public class Main_BOJ_S2_1012_유기농배추 {
 
 	

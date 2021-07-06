@@ -1,7 +1,11 @@
 package BOJ;
 
 import java.util.*;
-
+/**
+ * @author JAEWOO SHIM
+ * @date  
+ *
+ */
 public class Main_BOJ_S2_2210_숫자판점프 {
 
 	static int[] dr = {-1,1,0,0};

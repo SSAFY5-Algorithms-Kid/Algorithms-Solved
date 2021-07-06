@@ -2,7 +2,11 @@ package BOJ;
 
 import java.io.*;
 import java.util.*;
-
+/**
+ * @author JAEWOO SHIM
+ * @date  
+ *
+ */
 public class Main_BOJ_S2_3187_양치기꿍 {
 
 	public static void main(String[] args) throws Exception {
