@@ -6,7 +6,7 @@
 
 </div><div align="right">
 
-<a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solve"/></a>
+<a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved"/></a>
 
 </div><br>
 
