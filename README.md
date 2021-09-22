@@ -716,6 +716,11 @@
     <td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td>
     <td align="center">✅</td><td align="center"></td><td align="center"></td><td align="center">✅</td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/tree/main/Programmers/%ED%83%80%EA%B2%9F%EB%84%98%EB%B2%84">Pro 타겟넘버</a></td>
+    <td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td>
+    <td align="center"></td><td align="center"></td><td align="center"></td><td align="center">✅</td>
+  </tr>
 </table>
 
 <div align="right">
