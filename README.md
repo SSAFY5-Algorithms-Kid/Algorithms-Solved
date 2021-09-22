@@ -32,48 +32,99 @@
 
 <br><br>
 
-## ✍ 알고리즘 문제 목록
+## 🤝 알고리즘 풀이 규칙
 
+1. 다음과 같은 Branch 규칙으로 Pull Request로 문제 풀이를 공유합니다.
+   - Branch Name : <개인구별>_<요일>_algo
+     - 개인 구별 : 인원을 구별할 수 있는 단어 (아이디, 이니셜 등)
+     - 요일 : mon, tue, wed, thu, fri
+   - Pull Request : 각 요일 단위로 업로드합니다.
+2. Merge 규칙은 다음과 같습니다.
+   - 4인 이상의 코드 리뷰가 진행됬을 때, Merge 가능합니다.
+   - 더이상의 코드 리뷰를 받을 필요가 없다고 판단되는 경우, Merge 가능합니다.
+   - Merge가 되지 않은 PR의 경우 스터디장의 공지로 매주 일요일이 종료된 후 진행합니다.
+   - 코드 리뷰 메시지가 없는 경우, 이모지로 열람 확인을 체크합니다.
+3. Convention
+   - File Name : <사이트-메인>_<이름>.<확장자>
+     - 사이트 메인 : Main, Solution 등 각 사이트에서의 채점 기준 함수 이름
+     - 이름 : 풀이자 이름 작성
+     - 확장자 : java, py 등 풀이하시는 언어
+   - Commit : <번호>-<일시:YYMMDD> : <자율>
+     - 번호 : 문제목록의 번호입니다. 아래 알고리즘 문제 목록표를 참고하세요.
+     - 일시 : YYMMDD 형식으로 작성합니다. (예: 2021년 09월 23일인 경우, 210923)
+     - 자율 : 스터디원 자유롭게 남겨주세요.
+     - 예시 : 01-210923 : baekjoon 1234 solution
+
+<br><br>
+
+## ✍ 알고리즘 문제 목록
 
 <table align="center">
   <tr>
+    <th align="center">번호</th>
+    <th align="center">알고리즘 내용</th>
     <th align="center">기간</th>
-    <th align="center">상세내용</th>
+    <th align="center">리뷰</th>
   </tr>
   <tr>
-    <td align="center"><a href="#2월-3주차">2월 3주차</a></td>
-    <td>알고리즘 기초, 재귀, Math Basic</td>
+    <td align="center">01</td>
+    <td><a href="#알고리즘-기초-재귀-math-basic">알고리즘 기초, 재귀, Math Basic</a></td>
+    <td align="center">2월 3주차</td>
+    <td align="center">✅</td>
   </tr>
   <tr>
-    <td align="center"><a href="#2월-4주차">2월 4주차</a></td>
-    <td>SW역량평가 IM 대비   </td>
+    <td align="center">02</td>
+    <td><a href="#sw역량평가-im-대비">SW역량평가 IM 대비</a></td>
+    <td align="center">2월 4주차</td>
+    <td align="center">✅</td>
   </tr>
   <tr>
-    <td align="center"><a href="#3월-1주차">3월 1주차</a></td>
-    <td>Stack/Queue 기초 문제</td>
+    <td align="center">03</td>
+    <td><a href="#stackqueue-기초-문제">Stack/Queue 기초 문제</a></td>
+    <td align="center">3월 1주차</td>
+    <td align="center">✅</td>
   </tr>
   <tr>
-    <td align="center"><a href="#3월-2주차--5주차">3월 2 ~ 5주차</a></td>
-    <td>A형 대비, Baekjoon 특강 대비</td>
+    <td align="center">04</td>
+    <td><a href="#a형-대비-baekjoon-특강-대비">A형 대비, Baekjoon 특강 대비</a></td>
+    <td align="center">3월 2 ~ 5주차</td>
+    <td align="center">✅</td>
   </tr>
   <tr>
-    <td align="center"><a href="#4월-1주차--4주차">4월 1 ~ 4주차</a></td>
-    <td>A형 보충 및 삼성SDS 기본 문제 리스트</td>
+    <td align="center">05</td>
+    <td><a href="#a형-보충-및-삼성sds-기본-문제-리스트">A형 보충 및 삼성SDS 기본 문제 리스트</a></td>
+    <td align="center">4월 1 ~ 4주차</td>
+    <td align="center">✅</td>
   </tr>
   <tr>
-    <td align="center"><a href="#5월-1주차--2주차">5월 1 ~ 2주차</a></td>
-    <td>추천 문제 리스트</td>
+    <td align="center">06</td>
+    <td><a href="#추천-문제-리스트">추천 문제 리스트</a></td>
+    <td align="center">5월 1 ~ 2주차</td>
+    <td align="center">✅</td>
   </tr>
   <tr>
-    <td align="center"><a href="#6월-4주차--7월-1주차">6월 4주차 ~ 7월 1주차</a></td>
-    <td>DFS&BFS 집중 기간</td>
+    <td align="center" colspan="4">스터디원 경험 공유 및 자기소개서 피드백 등 취업 활동 공유</td>
   </tr>
   <tr>
-    <td align="center"><a href="#7월-2주차--3주차">7월 2 ~ 3주차</a></td>
-    <td>그리디 집중 기간</td>
+    <td align="center">07</td>
+    <td><a href="#dfsbfs-집중-기간">DFS&BFS 집중 기간</a></td>
+    <td align="center">6월 4주차 ~ 7월 1주차</td>
+    <td align="center"></td>
   </tr>
   <tr>
-    <td align="center" colspan="2">삼성SW청년아카데미 공통(1차) 프로젝트 마감 및 리뉴얼</td>
+    <td align="center">08</td>
+    <td><a href="#그리디-집중-기간">그리디 집중 기간</a></td>
+    <td align="center">7월 2 ~ 3주차</td>
+    <td align="center"></td>
+  </tr>
+  <tr>
+    <td align="center" colspan="4">삼성SW청년아카데미 공통(1차) 프로젝트 마감 및 리뉴얼<br>- (8월) 알고리즘 이론 정리 및 CS 스터디 시작 -</td>
+  </tr>
+  <tr>
+    <td align="center">09</td>
+    <td>알고리즘 리스트 보충기간</td>
+    <td align="center">9월 3 ~ 4주차</td>
+    <td align="center"></td>
   </tr>
 </table>
 
@@ -81,7 +132,7 @@
 
 ## 📚 상세 리스트
 
-### 2월 3주차
+### 알고리즘 기초, 재귀, Math Basic
 
 <table align="center">
   <tr>
@@ -264,7 +315,7 @@
 
 [🔺 목록으로 돌아가기](#-알고리즘-문제-목록)
 
-### 2월 4주차
+### SW역량평가 IM 대비
 
 <table align="center">
   <tr>
@@ -382,7 +433,7 @@
 
 [🔺 목록으로 돌아가기](#-알고리즘-문제-목록)
 
-### 3월 1주차
+### Stack/Queue 기초 문제
 
 <table align="center">
   <tr>
@@ -440,7 +491,7 @@
 
 [🔺 목록으로 돌아가기](#-알고리즘-문제-목록)
 
-### 3월 2주차 ~ 5주차
+### A형 대비, Baekjoon 특강 대비
 
 <table align="center">
   <tr>
@@ -518,7 +569,7 @@
 
 [🔺 목록으로 돌아가기](#-알고리즘-문제-목록)
 
-### 4월 1주차 ~ 4주차
+### A형 보충 및 삼성SDS 기본 문제 리스트
 
 <table align="center">
   <tr>
@@ -611,7 +662,7 @@
 
 [🔺 목록으로 돌아가기](#-알고리즘-문제-목록)
 
-### 5월 1주차 ~ 2주차
+### 추천 문제 리스트
 
 <table align="center">
   <tr>
@@ -654,7 +705,7 @@
 
 [🔺 목록으로 돌아가기](#-알고리즘-문제-목록)
 
-### 6월 4주차 ~ 7월 1주차
+### DFS&BFS 집중 기간
 
 <table align="center">
   <tr>
@@ -952,7 +1003,7 @@
 
 [🔺 목록으로 돌아가기](#-알고리즘-문제-목록)
 
-### 7월 2주차 ~ 3주차
+### 그리디 집중 기간
 
 <table align="center">
   <tr>
