@@ -147,17 +147,17 @@
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/tree/main/Baekjoon/1000">BOJ 1000</a></td>
-    <td align="center"></td><td align="center"></td><td align="center">✅</td><td align="center"></td>
+    <td align="center"></td><td align="center"></td><td align="center">✅</td><td align="center">✅</td>
     <td align="center">✅</td><td align="center"></td><td align="center"></td><td align="center"></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/tree/main/Baekjoon/1001">BOJ 1001</a></td>
-    <td align="center"></td><td align="center"></td><td align="center">✅</td><td align="center"></td>
+    <td align="center"></td><td align="center"></td><td align="center">✅</td><td align="center">✅</td>
     <td align="center">✅</td><td align="center"></td><td align="center"></td><td align="center"></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/tree/main/Baekjoon/1008">BOJ 1008</a></td>
-    <td align="center"></td><td align="center"></td><td align="center">✅</td><td align="center"></td>
+    <td align="center"></td><td align="center"></td><td align="center">✅</td><td align="center">✅</td>
     <td align="center">✅</td><td align="center"></td><td align="center"></td><td align="center"></td>
   </tr>
   <tr>
@@ -177,7 +177,7 @@
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/tree/main/Baekjoon/2292">BOJ 2292</a></td>
-    <td align="center"></td><td align="center"></td><td align="center">✅</td><td align="center"></td>
+    <td align="center"></td><td align="center"></td><td align="center">✅</td><td align="center">✅</td>
     <td align="center">✅</td><td align="center"></td><td align="center"></td><td align="center"></td>
   </tr>
   <tr>
@@ -192,7 +192,7 @@
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/tree/main/Baekjoon/2475">BOJ 2475</a></td>
-    <td align="center"></td><td align="center"></td><td align="center">✅</td><td align="center"></td>
+    <td align="center"></td><td align="center"></td><td align="center">✅</td><td align="center">✅</td>
     <td align="center">✅</td><td align="center"></td><td align="center"></td><td align="center"></td>
   </tr>
   <tr>
@@ -202,7 +202,7 @@
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/tree/main/Baekjoon/2839">BOJ 2839</a></td>
-    <td align="center"></td><td align="center"></td><td align="center">✅</td><td align="center"></td>
+    <td align="center"></td><td align="center"></td><td align="center">✅</td><td align="center">✅</td>
     <td align="center">✅</td><td align="center"></td><td align="center"></td><td align="center"></td>
   </tr>
   <tr>
@@ -212,7 +212,7 @@
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/tree/main/Baekjoon/2869">BOJ 2869</a></td>
-    <td align="center"></td><td align="center"></td><td align="center">✅</td><td align="center"></td>
+    <td align="center"></td><td align="center"></td><td align="center">✅</td><td align="center">✅</td>
     <td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td>
   </tr>
   <tr>
@@ -267,7 +267,7 @@
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/tree/main/Baekjoon/10718">BOJ 10718</a></td>
-    <td align="center"></td><td align="center"></td><td align="center">✅</td><td align="center"></td>
+    <td align="center"></td><td align="center"></td><td align="center">✅</td><td align="center">✅</td>
     <td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td>
   </tr>
   <tr>
