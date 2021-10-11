@@ -163,7 +163,7 @@
   <tr>
     <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/tree/main/Baekjoon/1011">BOJ 1011</a></td>
     <td align="center"></td><td align="center">✅</td><td align="center"></td><td align="center"></td>
-    <td align="center"></td><td align="center"></td><td align="center"></td><td align="center"></td>
+    <td align="center">✅</td><td align="center"></td><td align="center"></td><td align="center"></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/tree/main/Baekjoon/1193">BOJ 1193</a></td>
