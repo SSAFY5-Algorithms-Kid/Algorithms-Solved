@@ -10,52 +10,6 @@
 
 </div><br>
 
-<div align="center">
-
-**알린이 깃허브** : [알린이 소개](https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Kid) | [알고리즘 풀이](https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved) | [알고리즘 이론](https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Concept) | [자료구조](https://github.com/SSAFY5-Algorithms-Kid/Data-Structure)
-</div><br>
-
-## 😎 스터디 인원
-
-<table align="center" >
-  <tr>
-    <td align="center"><a href="https://github.com/950804sy"><img src="https://avatars.githubusercontent.com/u/26521279?v=4" style="width:80px;border-radius:50%;"></a><br><b>김수연</b><br><a href="https://github.com/950804sy" title="Github">💻</a></td>
-    <td align="center"><a href="https://github.com/yoonzuckerberg"><img src="https://avatars.githubusercontent.com/u/80167870?v=4" style="width:80px;border-radius:50%;"></a><br><b>김윤주</b><br><a href="https://github.com/yoonzuckerberg" title="Github">💻</a> <a href="https://zzapi.tistory.com/" title="기술블로그">📝</a></td>
-    <td align="center"><a href="https://github.com/eona1301"><img src="https://avatars.githubusercontent.com/u/45550607?v=4" style="width:80px;border-radius:50%;"></a><br><b>당현아</b><br><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Kid" title="스터디장">💼</a> <a href="https://github.com/eona1301" title="Github">💻</a> <a href="https://velog.io/@eona1301" title="기술블로그">📝</a></td>
-    <td align="center"><a href="https://github.com/minkpang"><img src="https://avatars.githubusercontent.com/u/50613287?v=4" style="width:80px;border-radius:50%;"></a><br><b>박민광</b><br><a href="https://github.com/minkpang" title="Github">💻</a> <a href="https://crazy-enough.tistory.com/" title="기술블로그">📝</a></td>
-    <td align="center"><a href="https://github.com/jeus1112"><img src="https://avatars.githubusercontent.com/u/56018285?v=4" style="width:80px;border-radius:50%;"></a><br><b>심재우</b><br><a href="https://github.com/jeus1112" title="Github">💻</a></td>
-    <td align="center"><a href="https://github.com/jwsims1995"><img src="https://avatars.githubusercontent.com/u/61106845?v=4" style="width:80px;border-radius:50%;"></a><br><b>심재원</b><br><a href="https://github.com/jwsims1995" title="Github">💻</a> <a href="https://won-percent.tistory.com/" title="기술블로그">📝</a></td>
-    <td align="center"><a href="https://github.com/uj02017"><img src="https://avatars.githubusercontent.com/u/80830384?v=4" style="width:80px;border-radius:50%;"></a><br><b>전중훈</b><br><a href="https://github.com/uj02017" title="Github">💻</a></td>
-    <td align="center"><a href="https://github.com/JWeonseok"><img src="https://avatars.githubusercontent.com/u/77473524?v=4" style="width:80px;border-radius:50%;"></a><br><b>정원석</b><br><a href="https://github.com/JWeonseok" title="Github">💻</a></td>
-  </tr>
-</table>
-
-<br><br>
-
-## 🤝 알고리즘 풀이 규칙
-
-1. 다음과 같은 Branch 규칙으로 Pull Request로 문제 풀이를 공유합니다.
-   - Branch Name : <개인구별>_<요일>_algo
-     - 개인 구별 : 인원을 구별할 수 있는 단어 (아이디, 이니셜 등)
-     - 요일 : mon, tue, wed, thu, fri
-   - Pull Request : 각 요일 단위로 업로드합니다.
-2. Merge 규칙은 다음과 같습니다.
-   - 4인 이상의 코드 리뷰가 진행됬을 때, Merge 가능합니다.
-   - 더이상의 코드 리뷰를 받을 필요가 없다고 판단되는 경우, Merge 가능합니다.
-   - Merge가 되지 않은 PR의 경우 스터디장의 공지로 매주 일요일이 종료된 후 진행합니다.
-   - 코드 리뷰 메시지가 없는 경우, 이모지로 열람 확인을 체크합니다.
-3. Convention
-   - File Name : <사이트-메인>_<이름>.<확장자>
-     - 사이트 메인 : Main, Solution 등 각 사이트에서의 채점 기준 함수 이름
-     - 이름 : 풀이자 이름 작성
-     - 확장자 : java, py 등 풀이하시는 언어
-   - Commit : <일시:YYMMDD> : <자율>
-     - 일시 : YYMMDD 형식으로 작성합니다. (예: 2021년 09월 23일인 경우, 210923)
-     - 자율 : 스터디원 자유롭게 남겨주세요.
-     - 예시 : 210923 : baekjoon 1234 solution
-
-<br><br>
-
 ## ✍ 알고리즘 문제 목록
 
 <table align="center">
