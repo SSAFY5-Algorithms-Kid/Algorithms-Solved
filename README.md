@@ -6,7 +6,8 @@
 
 </div><div align="right">
 
-<a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved"/></a>
+<a href="https://hits.seeyoufarm.com"/><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved"/></a><br>
+<a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki">📃 스터디 상세 보기 ▶</a>
 
 </div><br>
 
