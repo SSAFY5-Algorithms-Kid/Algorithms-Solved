@@ -1,6 +1,6 @@
 # 삼성SW청년아카데미 스터디 알린이
 
-<div align="center">
+<br><div align="center">
 
 <img src="https://user-images.githubusercontent.com/45550607/132973232-8ab621b1-8b59-4e3a-8300-86d8921a5eaa.png" alt="algorithm-kid">
 
