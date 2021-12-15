@@ -23,37 +23,37 @@
     <td align="center">01</td>
     <td><a href="#알고리즘-기초-재귀-math-basic">알고리즘 기초, 재귀, Math Basic</a></td>
     <td align="center">2월 3주차</td>
-    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/2%EC%9B%94-3%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
+    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/02%EC%9B%94-3%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
   </tr>
   <tr>
     <td align="center">02</td>
     <td><a href="#sw역량평가-im-대비">SW역량평가 IM 대비</a></td>
     <td align="center">2월 4주차</td>
-    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/2%EC%9B%94-4%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
+    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/02%EC%9B%94-4%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
   </tr>
   <tr>
     <td align="center">03</td>
     <td><a href="#stackqueue-기초-문제">Stack/Queue 기초 문제</a></td>
     <td align="center">3월 1주차</td>
-    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/3%EC%9B%94-1%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
+    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/03%EC%9B%94-1%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
   </tr>
   <tr>
     <td align="center">04</td>
     <td><a href="#a형-대비-baekjoon-특강-대비">A형 대비, Baekjoon 특강 대비</a></td>
     <td align="center">3월 2 ~ 5주차</td>
-    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/3%EC%9B%94-2-~-5%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
+    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/03%EC%9B%94-2-~-5%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
   </tr>
   <tr>
     <td align="center">05</td>
     <td><a href="#a형-보충-및-삼성sds-기본-문제-리스트">A형 보충 및 삼성SDS 기본 문제 리스트</a></td>
     <td align="center">4월 1 ~ 4주차</td>
-    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/4%EC%9B%94-1-~-4%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
+    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/04%EC%9B%94-1-~-4%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
   </tr>
   <tr>
     <td align="center">06</td>
     <td><a href="#추천-문제-리스트">추천 문제 리스트</a></td>
     <td align="center">5월 1 ~ 2주차</td>
-    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/5%EC%9B%94-1-~-2%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
+    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/05%EC%9B%94-1-~-2%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
   </tr>
   <tr>
     <td align="center" colspan="4">스터디원 경험 공유 및 자기소개서 피드백 등 취업 활동 공유</td>
@@ -62,13 +62,13 @@
     <td align="center">07</td>
     <td><a href="#dfsbfs-집중-기간">DFS&BFS 집중 기간</a></td>
     <td align="center">6월 4주차 ~ 7월 1주차</td>
-    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/6%EC%9B%94-4%EC%A3%BC%EC%B0%A8-~-7%EC%9B%94-1%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
+    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/06%EC%9B%94-4%EC%A3%BC%EC%B0%A8-~-7%EC%9B%94-1%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
   </tr>
   <tr>
     <td align="center">08</td>
     <td><a href="#그리디-집중-기간">그리디 집중 기간</a></td>
     <td align="center">7월 2 ~ 3주차</td>
-    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/7%EC%9B%94-2-~-3%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
+    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/07%EC%9B%94-2-~-3%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
   </tr>
   <tr>
     <td align="center" colspan="4">삼성SW청년아카데미 공통(1차) 프로젝트 마감 및 리뉴얼<br>- (8월) 알고리즘 이론 정리 및 CS 스터디 시작 -</td>
