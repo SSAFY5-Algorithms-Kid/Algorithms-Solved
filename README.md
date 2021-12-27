@@ -83,6 +83,12 @@
   <tr>
     <td align="center">10</td>
     <td>알고리즘 데일리 1주차</td>
+    <td align="center">12월 2주차</td>
+    <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/12%EC%9B%94-2%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
+  </tr>
+  <tr>
+    <td align="center">10</td>
+    <td>알고리즘 데일리 2주차</td>
     <td align="center">12월 3주차</td>
     <td align="center"><a href="https://github.com/SSAFY5-Algorithms-Kid/Algorithms-Solved/wiki/12%EC%9B%94-3%EC%A3%BC%EC%B0%A8-%EC%8A%A4%ED%84%B0%EB%94%94-%EB%AA%A9%EB%A1%9D">목록보기</a></td>
   </tr>
